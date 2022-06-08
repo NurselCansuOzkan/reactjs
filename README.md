@@ -16,3 +16,4 @@ Array States\
 Object States\
 Sayaç Uygulaması\
 Re-Render Mantığını Anlamak (React vs jQuery)\
+Input için state tanımı yapmak\
