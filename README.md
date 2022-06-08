@@ -30,12 +30,15 @@ Filtreleme işlemi\
 Stil tanımlarının yapılması\
 
 --style-definitions\
-Stil tanımlarının yapılması
+Stil tanımlarının yapılması\
 Module css\
 
+--fetching\
+Native Fetch\
 
 
 
 
 
-\NOT: Sıfırdan Her Yönüyle React ve Redux - Mehmet Seven eğitimi ile birlikte yapılan çalışmalardır.\
+
+NOT: Sıfırdan Her Yönüyle React ve Redux - Mehmet Seven eğitimi ile birlikte yapılan çalışmalardır.\
