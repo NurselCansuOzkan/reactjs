@@ -1,5 +1,5 @@
 # reactjs
-NOT: Sıfırdan Her Yönüyle React ve Redux - Mehmet Seven eğitimi ile birlikte yapılan çalışmalardır.
+
 --hello-react\
 create-react-app ile react projesini ayağa kaldırma\
 Component oluşturma, kullanma\
@@ -28,3 +28,14 @@ Form componentlerin geliştirilmesi\
 Kayıtların listelenmesi\
 Filtreleme işlemi\
 Stil tanımlarının yapılması\
+
+--style-definitions\
+Stil tanımlarının yapılması
+Module css\
+
+
+
+
+
+
+\NOT: Sıfırdan Her Yönüyle React ve Redux - Mehmet Seven eğitimi ile birlikte yapılan çalışmalardır.\
