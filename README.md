@@ -1,5 +1,5 @@
 # reactjs
---hello-react
+--hello-react\
 create-react-app ile react projesini ayağa kaldırma\
 Component oluşturma, kullanma\
 JSX kuralları\
@@ -8,9 +8,10 @@ Koşullu render işlemi\
 Props nedir, nasıl kullanılır\
 Döngülerde "key" Prob'u\
 Prop Types - isRequired - oneOfType - shape\
-Default Props \
+Default Props\
 
---states
+--states\
 State nedir, nasıl oluşturulur\
 Array States\
 Object States\
+Sayaç Uygulaması\
