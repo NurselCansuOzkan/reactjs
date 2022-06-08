@@ -15,3 +15,4 @@ State nedir, nasıl oluşturulur\
 Array States\
 Object States\
 Sayaç Uygulaması\
+Re-Render Mantığını Anlamak (React vs jQuery)\
