@@ -1,4 +1,5 @@
 # reactjs
+NOT: Sıfırdan Her Yönüyle React ve Redux - Mehmet Seven eğitimi ile birlikte yapılan çalışmalardır.
 --hello-react\
 create-react-app ile react projesini ayağa kaldırma\
 Component oluşturma, kullanma\
@@ -21,3 +22,9 @@ Input için state tanımı yapmak\
 --lifecycle\
 useEffect\
 Component Unmount\
+
+--contact-app\
+Form componentlerin geliştirilmesi\
+Kayıtların listelenmesi\
+Filtreleme işlemi\
+Stil tanımlarının yapılması\
