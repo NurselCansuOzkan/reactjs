@@ -50,6 +50,10 @@ Radio, Chacbox, Dropdown\
 useFormik\
 Form Validasyonları\
 
+--Memoization\
+React.memo\
+useMemo\
+useCallback\
 
 
 
