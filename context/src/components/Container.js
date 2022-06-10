@@ -1,13 +1,13 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import Button from './Button';
 import Header from './Header';
 import Profile from "./Profile";
 
-import ThemeContext from '../context/ThemeContext';
+import {useTheme} from '../context/ThemeContext';
 
 function Container() {
 
-    const {theme, setTheme} = useContext(ThemeContext);
+    const {theme, setTheme} = useTheme();
   return (
     <div className={`app ${theme}`}>
         <Button />
