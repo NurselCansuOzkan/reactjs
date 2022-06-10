@@ -1,34 +1,39 @@
 import './App.css';
-import { Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router,
+  Switch,
+  Route,
+  NavLink } from "react-router-dom";
 import About from './components/About';
 import Home from './components/Home';
  import Users from './components/Users';
- import User from './components/User';
+ import Error404 from './components/Error404';
 
 function App() {
   return (
+    <Router>
     <div className="App">
     <nav>
       <ul>
         <li>
-          <Link to="/about">About</Link>
+          <NavLink activeClassName='active' to="/about">About</NavLink>
         </li>
         <li>
-          <Link to="/">Home</Link>
+          <NavLink activeClassName='active' to="/">Home</NavLink>
         </li>
         <li>
-          <Link to="/users">Users</Link>
+          <NavLink activeClassName='active' to="/users">Users</NavLink>
         </li>
       </ul>
         </nav>
-    <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="users" element={<Users />} />
-        <Route path="user/:id" element={<User />} />
-      </Routes>
+    <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/users" component={Users}/>
+        <Route path="*" component={Error404}/>
+     
+      </Switch>
     </div>
-  
+  </Router>
   );
 }
 

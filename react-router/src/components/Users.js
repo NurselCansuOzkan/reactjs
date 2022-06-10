@@ -1,12 +1,16 @@
 import React, {useEffect, useState} from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink ,Route, useRouteMatch, Switch} from 'react-router-dom';
 import axios from 'axios';
-
+import User from './User';
 
 function Users() {
+   
 
     const [users, setUsers] = useState([]);
     const [loading, setLoading] = useState(true);
+
+    let { path, url } = useRouteMatch();
+    console.log(path, url);
     useEffect(()=>{
         axios('https://jsonplaceholder.typicode.com/users')
         .then((res) =>{
@@ -18,20 +22,30 @@ function Users() {
   return (
     <div>
     <h1>Users</h1>
-      <nav>   
+      <ul>   
 
-      {loading && (<div>Yükleniyor...</div>)}
+        {loading && (<div>Yükleniyor...</div>)}
         {
             
             users.map((user)=>(
                 <li key={user.id}>
-                    <Link to={`/user/${user.id}`} >{user.name}</Link>
+                    <NavLink activeClassName='active' to={`${url}/${user.id}`} >{user.name}</NavLink>
                 </li>
             ))
         }
        
             
-      </nav>
+      </ul>
+
+    <Switch>
+        <Route exact path={path}>
+            <h3>Please select a user.</h3>
+        </Route>
+        <Route path={`${path}/:id`} component={User}>
+            
+        </Route>
+    </Switch>
+
     </div>
   );
 }

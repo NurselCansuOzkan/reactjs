@@ -36,7 +36,12 @@ Module css\
 --fetching\
 Native Fetch\
 
---react-router
+--react-router\
+Exact Prop\
+URL Parameters\
+Nesting\
+NavLink\
+No Match\
 
 
 
