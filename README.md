@@ -35,14 +35,20 @@ Module css\
 
 --fetching\
 Native Fetch\
+Axios
 
 --react-router\
 Exact Prop\
 URL Parameters\
 Nesting\
 NavLink\
-No Match\
+No Match
 
+--formikorg\
+handleSubmit, handleChange\
+Radio, Chacbox, Dropdown\
+useFormik\
+Form Validasyonları\
 
 
 
