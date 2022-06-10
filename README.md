@@ -50,10 +50,20 @@ Radio, Chacbox, Dropdown\
 useFormik\
 Form Validasyonları\
 
---Memoization\
+--memoization\
 React.memo\
 useMemo\
 useCallback\
+
+--context\
+Context oluşturmak\
+Context Provider\
+Theme Switcher Yapımı\
+Context Provider Side Effects\
+Multi Context\
+Custom Context Hook\
+
+
 
 
 
