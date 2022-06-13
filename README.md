@@ -48,12 +48,12 @@ No Match
 handleSubmit, handleChange\
 Radio, Chacbox, Dropdown\
 useFormik\
-Form Validasyonları\
+Form Validasyonları
 
 --memoization\
 React.memo\
 useMemo\
-useCallback\
+useCallback
 
 --context\
 Context oluşturmak\
@@ -61,13 +61,25 @@ Context Provider\
 Theme Switcher Yapımı\
 Context Provider Side Effects\
 Multi Context\
-Custom Context Hook\
+Custom Context Hook
 
 --realtime-colors\
 Arayüzün hazırlanması\
 Socket Server'a bağlanmak\
 Backend'e veri iletmek\
-Bir kanala abone olmak\
+Bir kanala abone olmak
+
+--chat-app\
+Chat Context\
+Temel bileşenlerin geliştirilmesi\
+Backend bağlantısı\
+Mesajların iletilmesi\
+Mesajların listelenmesi\
+Feed Scroll
+
+
+
+
 
 
 
