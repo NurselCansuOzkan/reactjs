@@ -82,6 +82,10 @@ React Intl kurulumu\
 Default locale\
 Parametre geçmek
 
+--testing\
+Neden test yazarız?\
+React testing library
+
 
 
 
