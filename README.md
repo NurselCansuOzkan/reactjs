@@ -86,6 +86,16 @@ Parametre geçmek
 Neden test yazarız?\
 React testing library
 
+--publishing\
+create-react-library\
+Publish işlemleri\
+Semantic versiyonlama
+
+--deploying\
+Surge.sh\
+Netlify\
+Aws EC2 üzerine deploy işlemleri
+
 
 
 
