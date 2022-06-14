@@ -77,6 +77,13 @@ Mesajların iletilmesi\
 Mesajların listelenmesi\
 Feed Scroll
 
+--localization\
+React Intl kurulumu\
+Default locale\
+Parametre geçmek
+
+
+
 
 
 
